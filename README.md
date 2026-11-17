@@ -1,6 +1,7 @@
 <div align="center">
 
-# ⚡ المنصة المؤسسية المتكاملة لهندسة وتحليلات البيانات الضخمة
+# ⚡ رَوَافِد البيانات | Rawafed-Data
+### *المنصة المؤسسية المتكاملة لهندسة وتحليلات البيانات الضخمة*
 ### *Enterprise Hybrid Big Data Pipeline, Analytics Engine & Serving Layer*
 ### *المرحلتان الأولى (Ingestion & Quality) والثانية (Analytics & Serving)*
 
@@ -22,7 +23,7 @@
 
 | 🏛️ الصرح الجامعي | 🏷️ المقرر والتخصص | 👨‍💻 إعداد المهندس / الطالب | 🌐 المستودع والتوثيق |
 |:---:|:---:|:---:|:---:|
-| **جامعة الرازي**<br/>كلية الحاسوب وتقنية المعلومات | **قسم الذكاء الاصطناعي**<br/>المستوى الرابع — بيانات ضخمة (عملي) | **مناف البناء**<br/>*(Manaf Albana)* | [`manafalbana710-hash/midterm-data-pipeline2`](https://github.com/manafalbana710-hash/midterm-data-pipeline2) |
+| **جامعة الرازي**<br/>كلية الحاسوب وتقنية المعلومات | **قسم الذكاء الاصطناعي**<br/>المستوى الرابع — بيانات ضخمة (عملي) | **مناف البناء**<br/>*(Manaf Albana)* | [`manaf-albana/Rawafed-Data`](https://github.com/manaf-albana/Rawafed-Data) |
 
 ---
 
@@ -257,7 +258,7 @@ flowchart TD
 ## 📂 5. هيكل المشروع وشجرة الملفات الموحدة
 
 ```text
-midterm-data-pipeline2/
+Rawafed-Data/
 ├── config/
 │   └── settings.py              # الإعدادات المركزية وقراءة .env
 ├── src/
@@ -315,8 +316,8 @@ midterm-data-pipeline2/
 
 ```powershell
 # 1. استنساخ المستودع
-git clone https://github.com/manafalbana710-hash/midterm-data-pipeline2
-cd midterm-data-pipeline2
+git clone https://github.com/manaf-albana/Rawafed-Data.git
+cd Rawafed-Data
 
 # 2. إنشاء بيئة بايثون افتراضية وتفعيلها
 python -m venv .venv
